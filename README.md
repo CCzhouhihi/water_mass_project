@@ -9,22 +9,20 @@ This project analyzes water masses in the subpolar North Atlantic using WOA23 da
 
 ## Project Structure
 
-water_mass_project/
-│
-├── data/                   # Input NetCDF data files (.nc)
-│   └── woa23_B5C2_t00_04.nc  # Temperature
-│   └── woa23_B5C2_s00_04.nc  # Salinity
-│
-├── analysis/               # Reusable Python modules
-│   ├── __init__.py
-│   ├── ts_plotting.py           # Functions to create T-S diagrams
-│   ├── watermass_analysis.py   # Classification, statistics, pie plotting
-│   ├── region_defs.py           # Lat/lon ranges for ocean regions
-│   └── watermass_defs.py        # T/S boundaries for water masses
-│
-├── main_analysis.py        # Main file to run anything
-└── README.md               # Project description 
+- **`data/`** — Input NetCDF data files (.nc)
+  - `woa23_B5C2_t00_04.nc` — Temperature data
+  - `woa23_B5C2_s00_04.nc` — Salinity data
 
+- **`analysis/`** — Reusable Python modules
+  - `__init__.py` — Module initializer
+  - `ts_plotting.py` — Functions for creating temperature-salinity diagrams
+  - `watermass_analysis.py` — Water mass classification, statistics, pie chart plotting
+  - `region_defs.py` — Latitude/longitude definitions for ocean regions
+  - `watermass_defs.py` — Temperature/salinity boundaries for water mass definitions
+
+- **`main_analysis.py`** — Main script to run the full analysis workflow
+
+- **`README.md`** — Project description and usage instructions
 
 ## How to Run
 

@@ -1,6 +1,7 @@
 
 # region_defs.py
 # Define ocean regions for analysis
+# Add new regions by inputting the lat-lon information
 
 regions = {
     'NorthAtlantic_Subpolar': {

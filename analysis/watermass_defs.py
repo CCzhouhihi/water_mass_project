@@ -1,6 +1,6 @@
 
 # watermass_defs.py
-# Define known water mass properties (T/S boxes and colors)
+# Define known water mass properties (T/S ranges and colors)
 
 water_masses = {
     'LSW':   {'Tmin': 3, 'Tmax': 5, 'Smin': 34.8, 'Smax': 34.9, 'color': 'blue'},
